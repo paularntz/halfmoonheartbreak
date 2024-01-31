@@ -10,6 +10,15 @@ body {
   box-sizing: border-box;
 }
 
+.vd-image {
+  width:670px;
+  margin:10px auto;
+  padding:0;
+  display:block;
+  position:absolute;
+  top:0;
+}
+
 main {
   padding: 5rem 0;
   flex: 1;

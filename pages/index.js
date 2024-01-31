@@ -10,10 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Header title="Half Moon Heartbreak" />
-        <p className="description">
-          <img src="./ValentinesDay2024.pdf" />
-        </p>
+        <img className="vd-image" src="./ValentinesDay2024.png" />
       </main>
       <Footer />
     </div>

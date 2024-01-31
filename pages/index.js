@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Half Moon Heartbreak" />
         <p className="description">
-          Half Moon Heartbreak - Coming Soon.
+          Site Coming Soon
         </p>
       </main>
 

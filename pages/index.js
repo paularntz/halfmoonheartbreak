@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <img className="vd-image" src="./ValentinesDay2024.png" />
+        <YouTube videoId="RRfJ7-LLfC4" />
       </main>
       <Footer />
     </div>

@@ -1,8 +1,15 @@
 import Head from 'next/head'
-import Header from '@components/Header'
 import Footer from '@components/Footer'
+import YouTube from 'react-youtube'
 
 export default function Home() {
+
+  const opts = {
+    playerVars: {
+      autoplay: 1,
+    },  
+  }
+
   return (
     <div className="container">
       <Head>
@@ -10,7 +17,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <YouTube videoId="RRfJ7-LLfC4" />
+        <YouTube 
+          videoId="RRfJ7-LLfC4"
+          opts={opts}
+        />
       </main>
       <Footer />
     </div>
